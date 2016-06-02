@@ -1,0 +1,57 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "287F3CCB1287376788CD8C8A6441419AFFC4A554" : 0,
+    "A3DA5A55949AEBD506E099F1A15BE2AA474A5D45" : 0,
+    "8951CEB15DDB2D711276960E67900B8AA34FF427" : 0,
+    "1D611DFB0C8941722678616BE789B5765AA3A46E" : 0,
+    "1E72C4C11736864B9AA36A7CE5A7583666A1B027" : 0,
+    "10A2CB6C4392F0E306FF8D509BE5E88232276EA4" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "4AD2EA29-1B9E-4109-BB9A-D17F871DE95C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "287F3CCB1287376788CD8C8A6441419AFFC4A554" : "MobiusBattleship\/Server\/Packages\/HMAC-0.7.0\/",
+    "A3DA5A55949AEBD506E099F1A15BE2AA474A5D45" : "MobiusBattleship\/Server\/Packages\/libc-0.1.0\/",
+    "8951CEB15DDB2D711276960E67900B8AA34FF427" : "MobiusBattleship\/Server\/Packages\/MediaType-0.7.0\/",
+    "1D611DFB0C8941722678616BE789B5765AA3A46E" : "MobiusBattleship\/Server\/Packages\/Hummingbird-1.9.0\/",
+    "1E72C4C11736864B9AA36A7CE5A7583666A1B027" : "MobiusBattleship\/Server\/Packages\/SHA2-0.7.0\/",
+    "10A2CB6C4392F0E306FF8D509BE5E88232276EA4" : "MobiusBattleship\/Server\/Packages\/String-0.7.1\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MobiuesBattleship",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MobiuesBattleship.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Zewo\/String.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "10A2CB6C4392F0E306FF8D509BE5E88232276EA4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ketzusaka\/Hummingbird.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1D611DFB0C8941722678616BE789B5765AA3A46E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/CryptoKitten\/SHA2.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1E72C4C11736864B9AA36A7CE5A7583666A1B027"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/CryptoKitten\/HMAC.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "287F3CCB1287376788CD8C8A6441419AFFC4A554"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Zewo\/MediaType.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8951CEB15DDB2D711276960E67900B8AA34FF427"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/qutheory\/libc.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A3DA5A55949AEBD506E099F1A15BE2AA474A5D45"
+    }
+  ]
+}
