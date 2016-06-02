@@ -1,10 +1,21 @@
 import Vapor
+import Foundation
 
-final class User {
+final class User: Saveable {
+    let id: String
     var name: String!
+    var password: String!
     
+    init() {
+        id = NSUUID().uuidString
+    }
+    
+    convenience init(_ name: String, _ password: String) {
+        self.init()
+        self.name = name
+        self.password = password
+    }
 }
-
 /**
 	This allows instances of User to be 
 	passed into Json arrays and dictionaries
@@ -13,7 +24,7 @@ final class User {
 extension User: JSONRepresentable {
     func makeJson() -> JSON {
         return JSON([
-            "name": "\(name)"
+            "name": ""
         ])
     }
 }

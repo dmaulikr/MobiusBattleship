@@ -6,14 +6,16 @@
 //
 //
 
-//import Vapor
-//
-//class Game {
-//    var application: Application!
-//    var dataController: DataController!
-//    
-//}
+import Vapor
 
 class ApplicationController {
+    let application: Application
+    let dataController: DataController
     
+    static var applicationController: ApplicationController!
+    
+    init(_ application: Application, _ dataController: DataController) {
+        self.application = application
+        self.dataController = dataController
+    }
 }

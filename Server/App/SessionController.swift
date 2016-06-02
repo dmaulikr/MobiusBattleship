@@ -15,12 +15,11 @@ class SessionController {
         return false
     }
     
-    
     func session(token: String) -> Session? {
         return dataController.session(token: token)
     }
     
-    func auth(user: User) -> Session {
-        return dataController.sessions.first!
-    }
+//    func auth(user: User) -> Session {
+//        return dataController
+//    }
 }

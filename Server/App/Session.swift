@@ -9,6 +9,11 @@
 import Foundation
 
 
-class Session {
+class Session: Saveable {
+    let id: String
+    var userId: String!
     
+    init() {
+        id = NSUUID().uuidString
+    }
 }

@@ -8,7 +8,12 @@
 
 import Foundation
 
-
-class Game {
+class Game: Saveable {
+    let id: String
+    var userId: String!
+    let board = Board()
     
+    init() {
+        id = NSUUID().uuidString
+    }
 }
