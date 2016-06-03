@@ -8,7 +8,11 @@
 
 import Foundation
 
-
 class BoardController {
+    weak var dataController: DataController!
     var board: Board!
+    
+    init(dataController: DataController) {
+        self.dataController = dataController
+    }
 }

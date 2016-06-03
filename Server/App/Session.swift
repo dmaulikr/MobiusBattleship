@@ -5,7 +5,7 @@
 //  Created by Anton Davydov1 on 6/2/16.
 //
 //
-
+import Vapor
 import Foundation
 
 
@@ -15,5 +15,14 @@ class Session: Saveable {
     
     init() {
         id = NSUUID().uuidString
+    }
+}
+
+extension Session: JSONRepresentable {
+    func makeJson() -> JSON {
+        return JSON([
+                        "id": id,
+                        "userId": userId
+            ])
     }
 }

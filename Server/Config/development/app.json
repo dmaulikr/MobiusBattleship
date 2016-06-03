@@ -1,4 +1,5 @@
 {
 	"port": 8080,
-	"key": "development-key"
+	"key": "development-key",
+	"host": "10.16.160.250"
 }

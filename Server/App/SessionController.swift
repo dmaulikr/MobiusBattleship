@@ -11,6 +11,10 @@ import Foundation
 class SessionController {
     weak var dataController: DataController!
     
+    init(dataController: DataController) {
+        self.dataController = dataController
+    }
+    
     func isValidSession(token: String) -> Bool {
         return false
     }

@@ -62,15 +62,14 @@ class DataController {
         return sessions.get(id: token)
     }
     
-    func createGame(user: User) -> Game? {
+    func createGame(user: User, checkSum: String) -> Game? {
         // TODO: exit if count of games > 100
-        let newGame = Game()
-        newGame.userId = user.id
+        let newGame = Game(userId: user.id, checkSum: checkSum)
         games.put(item: newGame)
         return newGame
     }
     
-    func game(user: User) -> [Game] {
+    func games(user: User) -> [Game] {
         var result = [Game]()
         for game in games.items {
             if game.userId == user.id {
